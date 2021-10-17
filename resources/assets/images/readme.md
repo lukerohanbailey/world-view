@@ -1,0 +1,1 @@
+Images will be automatically copied to your dist folder.

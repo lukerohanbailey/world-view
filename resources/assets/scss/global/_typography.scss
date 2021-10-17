@@ -1,0 +1,10 @@
+@use "../tools" as *;
+
+html {
+	font-size: clamp(16px, 100px, 0.8333333vw);
+}
+
+body {
+	color: color('white');
+	font-family: font('sans');
+}

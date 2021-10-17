@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title>{{ global.title }}</title>
+        <meta name="description" content="{{ global.description }}">
+        <meta name="author" content="unseen.co">
+        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=1">
+
+        <link rel="stylesheet" href="{% asset 'css/style.css' %}">
+    </head>
+
+    <body>
+        <div class="canvas-container">
+			<canvas id="canvas"></canvas>
+		</div>
+
+        <div class="earth"></div>
+
+        <script src="{% asset 'scripts/theme.js' %}"></script>
+    </body>
+</html>

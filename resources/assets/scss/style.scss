@@ -1,0 +1,10 @@
+@use "settings";
+
+// Import globals
+@use "global/base";
+@use "global/typography";
+
+// Import components
+@use "components/body";
+@use "components/earth";
+@use "components/canvas";

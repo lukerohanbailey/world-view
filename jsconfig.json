@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "allowSyntheticDefaultImports": false,
+      "baseUrl": "./resources/assets/",
+      "paths": {
+        "_components/*": ["js/components/*"],
+        "_components": ["js/components/index.js"],
+        "_utils/*": ["js/utils/*"],
+        "_utils": ["js/utils/index.js"],
+        "_highway/*": ["js/highway/*"],
+        "_highway": ["js/highway/index.js"],
+        "_glsl/*": ["glsl/*"],
+		"_store": ["js/store.js"]
+      }
+    },
+    "exclude": ["node_modules", "public"]
+}

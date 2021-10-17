@@ -1,0 +1,59 @@
+@use "normalize";
+
+/**
+------------------------------------------------------------------------------------------------------------------------
+settings/base.scss
+------------------------------------------------------------------------------------------------------------------------
+**/
+
+/**
+ * Set line height according to accessibility standards
+ */
+html {
+	box-sizing: border-box;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+/*
+ * Remove additional spacing underneath certain inline elements
+ */
+iframe,
+image,
+video,
+embed {
+	vertical-align: baseline;
+}
+
+figure {
+	margin: 0;
+}
+
+/*
+ * Unset the margin-top on default elements
+ */
+ul,
+ol,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre {
+	margin-top: 0;
+}
+
+img,
+svg {
+	max-width: 100%;
+	height: auto;
+}
